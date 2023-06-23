@@ -1,10 +1,10 @@
  # Semantic-Guidance-Dehazing
-NTIRE 2023 NTIRE 2023 HR NonHomogeneous Dehazing Challenge: (CVPR Workshop 2023) Solution.
+ NTIRE 2023 HR NonHomogeneous Dehazing Challenge: (CVPR Workshop 2023) Solution.
 
 High-resolution non-homogeneous dehazing aims to generate a clear image from a 4000 x 6000 image with
-non-homogeneous haze. To address this issue, we propose semanticguided loss functions for high-resolution non-homogeneous dehazing. Semantic information contains strong texture and color prior. Thus, we proposed to adopt the pretrained model to generate the semantic mask to guide the
+non-homogeneous haze. To address this issue, we propose semantic guided loss functions for high-resolution non-homogeneous dehazing. Semantic information contains strong texture and color prior. Thus, we proposed to adopt the pre-trained model to generate the semantic mask to guide the
 neural network during the training phase.
-<p align="center"><img width="80%" src="imgs/semantic.png" /></p>
+<p align="center"><img width="60%" src="imgs/semantic.png" /></p>
 
 
 [Paper](https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Yang_Semantic_Guidance_Learning_for_High-Resolution_Non-Homogeneous_Dehazing_CVPRW_2023_paper.pdf), [CVPRW2023, Accepted]
@@ -17,8 +17,8 @@ $ cd Semantic-Guidance-Dehazing
 ```
 #### 2. Download the pre-trained [model](https://drive.google.com/file/d/1hCmfTjUUdVCCdb0-5U17xwXyIVleM7Wf/view?usp=sharing) and testing images
 
-Put model into weights/ <br />
-Put images into tests/ <br />
+Put model weights into codes/weights/ <br />
+Put images into codes/tests/ <br />
 
 #### 3. Prepare environment & dependency
     torch	      1.13.1
